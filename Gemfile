@@ -16,6 +16,7 @@ gem 'pg', group: :production
 gem "paperclip", '~> 4.2'
 gem 'aws-sdk', '< 2.0'
 gem 'devise'
+gem 'searchkick'
 
 group :development, :test do
   gem 'byebug'
